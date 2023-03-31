@@ -53,7 +53,7 @@ In conclusion we recommend that Seattle Real Estate Investment Holdings look for
     -These are the ten Zip-codes that had the most negative coefficients in comparison to the most expensive median sale Zip-code. We want to recommend the homes that are in areas that have sold the cheapest in relation to the most expensive Zip-code. As seen in the graph above, a rising tide lifts all boats. It's better to find the least valued homes if the city as a whole will continue to appreciate.
 
 ## Next Steps
-Deeper analysis and further investigation into how the price of a square foot varies by zip-code. Additinal sampling of the past and information to get the data to the present. An additional factor that would be very interesting to see would be the interest rate. That way we can measure whether it has had a significant impact on housing sales since the start of the aggressive hiking cycle mid 2022.
+Deeper analysis and further investigation into how the price of a square foot varies by zip-code. Additional sampling of the past and information to get the data to the present. An additional factor that would be very interesting to see would be the interest rate. That way we can measure whether it has had a significant impact on housing sales since the start of the aggressive hiking cycle mid 2022.
 
 ## For More Information
 See the full analysis in the [Jupyter Notebook](https://github.com/vladiseki/Housing_Prices_P2_Project/blob/main/Final_notebook.ipynb) or review this [presentation](insert link to the pdf)
