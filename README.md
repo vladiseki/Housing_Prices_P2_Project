@@ -7,7 +7,7 @@
 For this project, we use a multiple linear regression model to analyze house sales in King County, a large county located in the State of Washington. 
 
 ## Business Problem
-How can we help identify price dislocation in Washington King County based on certain housing features. To examine pricing in the area we are analyzing recent sales data (2021 - 2022).
+How can we help identify price dislocation in Washington King County based on certain housing features. To examine pricing in the area we are analyzing recent sales data (2021 - 2022). Consultation services for Seattle Real Estate Investment Holdings, to identify investment grade houses and areas based on housing features effect on price.
 
 ## Data
 This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder of this project's GitHub repository. The description of the column names can be found in column_names.md in the same folder.
@@ -16,8 +16,8 @@ This project uses the King County House Sales dataset, which can be found in kc_
 We cleaned the data to only include house sales in the state of Washington. To analyze the data we used simple linear regressions as well as multiple linear regressions to see the relationship between housing features and their sale price. After iterating and examining which features we thought increased the R^2 the mmost, we crafted our final regression to help infer pricing.
 
 ## Results
-
 We examined eight housing features:
+
     - Livable Square Feet
     - Bedrooms
     - Bathrooms
@@ -26,13 +26,22 @@ We examined eight housing features:
     - Zip-code(which is a categorical variable, and adds an additional 92 features)
     - Year House was Sold
 
+Our model produces an R^2 of 0.691. This explains around 69.1% of the variance in house sales price. Below is a graph depicting the predicted house sales price vs the actual house sales price. For additional steps to refining the model, we believe that removing certain outliers would help.
+![Predicted Home Sales Price vs. Actual Home Sales Price](./images/model_fig.png)
+
 
 ### 1. Relationship between Livable Square Feet and Home Sales Price
+One unit increase in livable sqft on average produces a price increase of 0.02%.
+![Livable Square Feet vs. Home Sales Price](./images/sqftliving_fig.png)
+
 
 ### 2. Relationship between Construction Material Grade and Median Home Sales Price
-Shows the statistically significant (in blue) Construction Material Grade. The reference is in orange, and the NOT statistically significant
+Shows the statistically significant (in blue) Construction Material Grade. The reference is in orange, and the NOT statistically significant.
+![Construction Material Grade vs. Median Home Sales Price](./images/grade_fig.png)
 
 ### 3. Bottom 10 Zip-code coefficients compared to the most Expensive Median Home Sale Zip-code
+The Zip-codes that have the largest discrepancy in median home sale price from the most expensive median home sale price Zip-code. This shows that even the comparably cheapest Zip-codes in Washington are appreciating in value.
+![Zip-Codes vs. Median Home Sales Price](./images/zip_fig.png)
 
 ## Recommendations
 
@@ -58,7 +67,7 @@ For additional info, contact [Alison Park](mailto:alisonsjpark@gmail.com), [Vlad
 ```
 ├── Individual Notebooks
 │   ├── Ali_jn.ipynb
-│   ├── VS_housing_prices_rough_jn.ipynb 
+│   ├── VS_housing_prices_rough_jn.ipynb
 │   
 ├── data
 ├── images
