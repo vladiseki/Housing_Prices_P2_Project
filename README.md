@@ -9,6 +9,7 @@ For this project, we use a multiple linear regression model to analyze house sal
 ## Business Problem
 How can we help identify price dislocation in Washington King County based on certain housing features. To examine pricing in the area we are analyzing recent sales data (2021 - 2022). Consultation services for Seattle Real Estate Investment Holdings, to identify investment grade houses and areas based on housing features effect on price.
 
+
 ## Data
 This project uses the King County House Sales dataset, which can be found in kc_house_data.csv in the data folder of this project's GitHub repository. The description of the column names can be found in column_names.md in the same folder.
 
@@ -16,8 +17,8 @@ This project uses the King County House Sales dataset, which can be found in kc_
 We cleaned the data to only include house sales in the state of Washington. To analyze the data we used simple linear regressions as well as multiple linear regressions to see the relationship between housing features and their sale price. After iterating and examining which features we thought increased the R^2 the mmost, we crafted our final regression to help infer pricing.
 
 ## Results
-We examined eight housing features:
 
+We examined eight housing features:
     - Livable Square Feet
     - Bedrooms
     - Bathrooms
