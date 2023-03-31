@@ -19,6 +19,7 @@ We cleaned the data to only include house sales in the state of Washington. To a
 ## Results
 
 We examined eight housing features:
+    
     - Livable Square Feet
     - Bedrooms
     - Bathrooms
