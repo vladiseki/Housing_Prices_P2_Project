@@ -58,7 +58,7 @@ In conclusion we recommend that Seattle Real Estate Investment Holdings look for
 Deeper analysis and further investigation into how the price of a square foot varies by zip-code. Additional sampling of the past and information to get the data to the present. An additional factor that would be very interesting to see would be the interest rate. That way we can measure whether it has had a significant impact on housing sales since the start of the aggressive hiking cycle mid 2022.
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/vladiseki/Housing_Prices_P2_Project/blob/main/Final_notebook.ipynb) or review this [presentation](insert link to the pdf)
+See the full analysis in the [Jupyter Notebook](https://github.com/vladiseki/Housing_Prices_P2_Project/blob/main/Final_notebook.ipynb) or review this [presentation](https://github.com/vladiseki/Housing_Prices_P2_Project/blob/main/Phase%202%20Housing%20Project%20-%20AP%2C%20VS.pdf)
 
 For additional info, contact [Alison Park](mailto:alisonsjpark@gmail.com), [Vlad Sekiguchi](mailto:vladsekig@gmail.com) 
 
